@@ -45,11 +45,11 @@ Terraform Code Configuration block types include:
 All interactions with Terraform occur via the CLI. Terraform is a local tool (runs on the current machine). The terraform ecosystem also includes providers for many cloud services, and a module repository.
 Hashicorp also has products to help teams manage Terraform: Terraform Cloud and Terraform Enterprise.
 There are basic terraform commands, including:
-• terraform init
-• terraform validate
-• terraform plan
-• terraform apply
-• terraform destroy
+**• terraform init**
+**• terraform validate**
+**• terraform plan**
+**• terraform apply**
+**• terraform destroy**
 
 # Terraform State
 In order to properly and correctly manage your infrastructure resources, Terraform stores the state of your managed infrastructure. Terraform uses this state on each execution to plan and make changes to your infrastructure. This state must be stored and maintained on each execution so future operations can perform correctly.
@@ -65,8 +65,8 @@ region = "us-east-1"
 }
 
 # Infrastructure as Code in a Private or Public Cloud
-• Task 1: Create a new VPC in your account in the US-East-1 region
-• Task 2: Create public and private subnets
-• Task 3: Deploy an Internet Gateway and attach it to the VPC
-• Task 4: Provision a NAT Gateway (a single instance will do) for outbound connectivity
-• Task 5: Ensure that route tables are configured to properly route traffic based on the requirements
+**• Task 1: Create a new VPC in your account in the US-East-1 region**
+**• Task 2: Create public and private subnets**
+**• Task 3: Deploy an Internet Gateway and attach it to the VPC**
+**• Task 4: Provision a NAT Gateway (a single instance will do) for outbound connectivity**
+**• Task 5: Ensure that route tables are configured to properly route traffic based on the requirements**
