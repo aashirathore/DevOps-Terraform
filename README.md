@@ -57,11 +57,11 @@ Terraform Code Configuration block types include:
 All interactions with Terraform occur via the CLI. Terraform is a local tool (runs on the current machine). The terraform ecosystem also includes providers for many cloud services, and a module repository.
 Hashicorp also has products to help teams manage Terraform: Terraform Cloud and Terraform Enterprise.
 There are basic terraform commands, including:
-**• terraform init**
-**• terraform validate**
-**• terraform plan**
-**• terraform apply**
-**• terraform destroy**
+    terraform init
+    terraform validate
+    terraform plan
+    terraform apply
+    terraform destroy
 
 # Terraform State
 In order to properly and correctly manage your infrastructure resources, Terraform stores the state of your managed infrastructure. Terraform uses this state on each execution to plan and make changes to your infrastructure. This state must be stored and maintained on each execution so future operations can perform correctly.
