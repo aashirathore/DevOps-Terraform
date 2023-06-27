@@ -87,8 +87,13 @@ region = "us-east-1"
 
 
 # Infrastructure as Code in a Private or Public Cloud
+
 **• Task 1: Create a new VPC in your account in the US-East-1 region**
+
 **• Task 2: Create public and private subnets**
+
 **• Task 3: Deploy an Internet Gateway and attach it to the VPC**
+
 **• Task 4: Provision a NAT Gateway (a single instance will do) for outbound connectivity**
+
 **• Task 5: Ensure that route tables are configured to properly route traffic based on the requirements**
