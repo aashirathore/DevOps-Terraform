@@ -17,24 +17,24 @@ Ansible, chief, puppet are configuration management tools which means they are p
 # Terraform is written in HCL.
 (HashiCorp Configuration Language) and is designed to be both human and machine readable. HCL is built using code configuration blocks which typically follow the following syntax:
 
-1 ##Template
-2 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
+##Template
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
 
-3 ## Block body
+## Block body
 
-4 <IDENTIFIER> = <EXPRESSION> ## Argument
+<IDENTIFIER> = <EXPRESSION> ## Argument
 
-5 }
-6
-7 ## AWS EC2 Example
+}
 
-8 resource "aws_instance" "web_server" { # BLOCK
+## AWS EC2 Example
 
-9 ami = "ami-04d29b6f966df1537" # Argument
+resource "aws_instance" "web_server" { ## BLOCK
 
-10 instance_type = var.instance_type # Argument with value as expression (Variable value replaced from varibales.tf
+ami = "ami-04d29b6f966df1537" ## Argument
 
-11 }
+instance_type = var.instance_type # Argument with value as expression (Variable value replaced from varibales.tf
+
+}
 
 Terraform Code Configuration block types include:
 • Terraform Settings Block
