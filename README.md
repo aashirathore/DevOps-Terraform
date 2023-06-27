@@ -3,7 +3,7 @@
 # What is Infrastructure as Code.
 Infrastructure as Code is essentially a hub that can be used for collaboration across the IT organization to improve infrastructure deployments, increase our ability to scale quickly, and improve the application development process. Infrastructure as Code allows us to do all this consistently and proficiently. By using Infrastructure as Code for both our on-premises infrastructure and the public cloud, our organization can provide dynamic infrastructure to both our internal team members and ensure our customers have an excellent experience.
 
-Ansible, chief, puppet are configuration management tools which means they are primarily designed to install and manage software and existing servers.
+Ansible, chief, puppet are configuration management tools which means they are primarily designed to install, manage software and existing servers.
 
 **Reference : https://developer.hashicorp.com/terraform/intro#infrastructure-as-code**
 
