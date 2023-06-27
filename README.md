@@ -36,8 +36,11 @@ Terraform Code Configuration block types include:
 • Terraform Modules Block
 
 **Reference: https://developer.hashicorp.com/terraform/language**
+
 **Terraform Configuration: https://developer.hashicorp.com/terraform/language/providers/configuration**
+
 **Terraform Syntax: https://developer.hashicorp.com/terraform/language/modules/syntax#version or https://developer.hashicorp.com/terraform/language/functions**
+
 # Terraform Basics.
 All interactions with Terraform occur via the CLI. Terraform is a local tool (runs on the current machine). The terraform ecosystem also includes providers for many cloud services, and a module repository.
 Hashicorp also has products to help teams manage Terraform: Terraform Cloud and Terraform Enterprise.
@@ -50,6 +53,7 @@ There are basic terraform commands, including:
 
 # Terraform State
 In order to properly and correctly manage your infrastructure resources, Terraform stores the state of your managed infrastructure. Terraform uses this state on each execution to plan and make changes to your infrastructure. This state must be stored and maintained on each execution so future operations can perform correctly.
+
 **Reference: https://developer.hashicorp.com/terraform/language/state/sensitive-data**
 
 # Terraform Modules
@@ -57,11 +61,14 @@ Terraform configuration can be separated out into modules to better organize you
 Configure Terraform AWS Provider.
 Use the Amazon Web Services (AWS) provider to interact with the many resources supported by AWS.
 You must configure the provider with the proper credentials before you can use it.
+
+**Reference: https://developer.hashicorp.com/terraform/language/resources**
+
 # Configure the AWS Provider
 provider "aws" {
 region = "us-east-1"
 }
-**Reference: https://developer.hashicorp.com/terraform/language/resources**
+
 
 # Infrastructure as Code in a Private or Public Cloud
 **• Task 1: Create a new VPC in your account in the US-East-1 region**
