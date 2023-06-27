@@ -35,6 +35,9 @@ Terraform Code Configuration block types include:
 • Terraform Output Values Block
 • Terraform Modules Block
 
+**Reference: https://developer.hashicorp.com/terraform/language**
+**Terraform Configuration: https://developer.hashicorp.com/terraform/language/providers/configuration**
+**Terraform Syntax: https://developer.hashicorp.com/terraform/language/modules/syntax#version or https://developer.hashicorp.com/terraform/language/functions**
 # Terraform Basics.
 All interactions with Terraform occur via the CLI. Terraform is a local tool (runs on the current machine). The terraform ecosystem also includes providers for many cloud services, and a module repository.
 Hashicorp also has products to help teams manage Terraform: Terraform Cloud and Terraform Enterprise.
@@ -47,6 +50,7 @@ There are basic terraform commands, including:
 
 # Terraform State
 In order to properly and correctly manage your infrastructure resources, Terraform stores the state of your managed infrastructure. Terraform uses this state on each execution to plan and make changes to your infrastructure. This state must be stored and maintained on each execution so future operations can perform correctly.
+**Reference: https://developer.hashicorp.com/terraform/language/state/sensitive-data**
 
 # Terraform Modules
 Terraform configuration can be separated out into modules to better organize your configuration. This makes your code easier to read and reusable across your organization. A Terraform module is very simple: any set of Terraform configuration files in a folder is a module. Modules are the key ingredient to writing reusable and maintainable Terraform code. Complex configurations, team projects, and multi-repository codebases will benefit from modules. Get into the habit of using them wherever it makes sense.
@@ -57,6 +61,7 @@ You must configure the provider with the proper credentials before you can use i
 provider "aws" {
 region = "us-east-1"
 }
+**Reference: https://developer.hashicorp.com/terraform/language/resources**
 
 # Infrastructure as Code in a Private or Public Cloud
 **• Task 1: Create a new VPC in your account in the US-East-1 region**
