@@ -18,15 +18,16 @@ Ansible, chief, puppet are configuration management tools which means they are p
 (HashiCorp Configuration Language) and is designed to be both human and machine readable. HCL is built using code configuration blocks which typically follow the following syntax:
 
 ##Template
+
 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
 
-## Block body
+##Block body
 
 <IDENTIFIER> = <EXPRESSION> ## Argument
 
 }
 
-## AWS EC2 Example
+##AWS EC2 Example
 
 resource "aws_instance" "web_server" { ## BLOCK
 
