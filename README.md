@@ -19,7 +19,7 @@ Ansible, chief, puppet are configuration management tools which means they are p
 
 ##Template
 
-   <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
+    <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
 
 ##Block body
 
