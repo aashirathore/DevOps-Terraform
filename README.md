@@ -38,6 +38,7 @@ instance_type = var.instance_type # Argument with value as expression (Variable 
 }
 
 Terraform Code Configuration block types include:
+
 • Terraform Settings Block
 • Terraform Provider Block
 • Terraform Resource Block
